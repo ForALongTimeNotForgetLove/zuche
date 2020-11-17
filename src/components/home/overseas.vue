@@ -1,6 +1,6 @@
 <template>
-    <div>
-      home
+    <div id="overseas">
+        境外
     </div>
 </template>
 
@@ -23,7 +23,6 @@ export default {
 };
 </script>
 
-<style scoped lang="css">
+<style scoped lang="less">
 
 </style>
-

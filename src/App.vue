@@ -1,7 +1,7 @@
 <template>
-    <div>
-        <div class="12">daa</div>
-      <router-view></router-view>
+    <div id="App">
+       <router-link to="/"></router-link>
+       <router-view></router-view>
     </div>
 </template>
 
@@ -25,11 +25,9 @@ export default {
 </script>
 
 <style scoped lang="css">
-
-div{
-    width: 1.2rem;
-    height: 1.2rem;
-    background: red;
+body,html{
+    height: 100%;
+   
 }
 </style>
 
